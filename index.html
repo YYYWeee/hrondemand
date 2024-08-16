@@ -11,7 +11,7 @@
       <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
       <link href="css/styles.css" rel="stylesheet" />
       <script src="//unpkg.com/alpinejs" defer></script>
-      <title>Amiso</title>
+      <title>HRonDemand</title>
    </head>
    <body class="flex h-full flex-col">
       <header class="z-50 border-b border-zinc-200 bg-zinc-50 py-5">
@@ -19,7 +19,7 @@
             <div class="relative flex items-center justify-between">
                <div class="flex items-center">
                   <a href="/src">
-                     <img src="images/logo.svg" alt="Amiso" class="w-[110px]" />
+                     <img src="images/logo.svg" alt="HRonDemand" class="w-[110px]" />
                   </a>
                   <nav
                      class="hidden lg:ml-14 lg:flex lg:gap-x-7"
@@ -34,7 +34,7 @@
                </div>
 
                <div class="flex items-center gap-x-4 sm:gap-x-7">
-                  <div class="hidden sm:block">
+                  <!-- <div class="hidden sm:block">
                      <a
                         href="/src/signin.html"
                         class="inline-block text-sm font-medium text-zinc-600 hover:text-zinc-950"
@@ -45,7 +45,7 @@
                      href="/src/signup.html"
                      class="inline-flex rounded-md border border-emerald-700 bg-emerald-600 px-3.5 py-2 text-sm font-medium text-white shadow-sm duration-150 hover:bg-emerald-700">
                      Get Started
-                  </a>
+                  </a> -->
 
                   <!-- Mobile Nav -->
                   <div class="lg:hidden">
@@ -99,11 +99,11 @@
                                  x-text="item.name"></a>
                            </template>
                            <hr class="my-2 border-zinc-200" />
-                           <a
+                           <!-- <a
                               href="/src/signin.html"
                               class="block w-full py-1.5"
                               >Sign in</a
-                           >
+                           > -->
                         </div>
                      </div>
                   </div>
@@ -161,13 +161,13 @@
                         class="absolute inset-0 rounded-2xl border border-zinc-950/10"></div>
 
                      <div class="flex items-end p-5">
-                        <div
+                        <!-- <div
                            class="inline-flex flex-col gap-y-1.5 rounded-xl bg-white/10 p-3.5 shadow-2xl ring-1 ring-zinc-950/10 backdrop-blur duration-150 hover:shadow-none"
-                           x-data="{ companies: [ 
+                           x-data="{ companies: [
                               { name: 'Trello', icon: 'images/icons/trello.jpg' },
                               { name: 'Stripe', icon: 'images/icons/adobe.jpg' },
-                              { name: 'Adobe', icon: 'images/icons/stripe.jpg' } 
-                           ] }">
+                              { name: 'Adobe', icon: 'images/icons/stripe.jpg' }
+                           ] }"> -->
                            <template
                               x-for="company in companies"
                               :key="company.name">
@@ -351,7 +351,7 @@
          </section>
 
          <!-- Pricing Section -->
-         <section class="pt-16 md:pt-28" id="pricing" x-data="{ plans }">
+         <!-- <section class="pt-16 md:pt-28" id="pricing" x-data="{ plans }">
             <div class="mx-auto max-w-7xl px-5 sm:px-7">
                <div class="space-y-4 sm:text-center">
                   <span
@@ -450,7 +450,7 @@
                   </template>
                </div>
             </div>
-         </section>
+         </section> -->
 
          <!-- FAQ Section -->
          <section class="pt-16 md:pt-28" id="faq" x-data="{ faqs }">
@@ -534,9 +534,9 @@
                         <div>
                            <p class="text-zinc-600">Write us</p>
                            <a
-                              href="mailo:hi@amiso.com"
+                              href="mailo:info@hrondemand.net"
                               class="mt-2 block font-medium">
-                              hi@amiso.com
+                              info@hrondemand.net
                            </a>
                         </div>
                      </div>
@@ -602,7 +602,7 @@
                </ul>
 
                <p class="mt-7 text-sm text-zinc-600 md:mt-0">
-                  Copyright © 2023 Amiso. All rights reserved.
+                  Copyright © 2024 hrondemand. All rights reserved.
                </p>
             </div>
          </div>
@@ -658,7 +658,7 @@
             [
                {
                   id: 1,
-                  text: "Amiso has completely revolutionized the way we manage projects and collaborate as a team. The automation features alone saved us countless hours, and the real-time analytics give us insights we never had before.",
+                  text: "HRonDemand has completely revolutionized the way we manage projects and collaborate as a team. The automation features alone saved us countless hours, and the real-time analytics give us insights we never had before.",
                   author: {
                      photo: "images/testimonials/avatar-1.jpg",
                      name: "Sarah Johnson",
@@ -667,7 +667,7 @@
                },
                {
                   id: 2,
-                  text: "Amiso's automation tools have simplified our workflow and reduced errors. We can focus on strategic tasks, knowing that routine processes are being handled efficiently.",
+                  text: "HRonDemand's automation tools have simplified our workflow and reduced errors. We can focus on strategic tasks, knowing that routine processes are being handled efficiently.",
                   author: {
                      photo: "images/testimonials/avatar-2.jpg",
                      name: "Jessica White",
@@ -676,7 +676,7 @@
                },
                {
                   id: 3,
-                  text: "Amiso has been a game-changer for our project management. The smart automation and customizable user roles have made our workflow incredibly smooth. It's a must-have tool for any growing business.",
+                  text: "HRonDemand has been a game-changer for our project management. The smart automation and customizable user roles have made our workflow incredibly smooth. It's a must-have tool for any growing business.",
                   author: {
                      photo: "images/testimonials/avatar-3.jpg",
                      name: "Emily Rodriguez",
@@ -687,7 +687,7 @@
             [
                {
                   id: 4,
-                  text: "Amiso's customizable dashboards have given us a visual overview of our projects, and the ability to create tailored reports helps us keep stakeholders informed and engaged.",
+                  text: "HRonDemand's customizable dashboards have given us a visual overview of our projects, and the ability to create tailored reports helps us keep stakeholders informed and engaged.",
                   author: {
                      photo: "images/testimonials/avatar-4.jpg",
                      name: "Alex Patel",
@@ -696,7 +696,7 @@
                },
                {
                   id: 5,
-                  text: "Since implementing Amiso, our team's productivity has skyrocketed. The real-time analytics and reporting have given us valuable insights into our performance, helping us make data-driven decisions.",
+                  text: "Since implementing HRonDemand, our team's productivity has skyrocketed. The real-time analytics and reporting have given us valuable insights into our performance, helping us make data-driven decisions.",
                   author: {
                      photo: "images/testimonials/avatar-5.jpg",
                      name: "Lisa Anderson",
@@ -705,7 +705,7 @@
                },
                {
                   id: 6,
-                  text: "Amiso is a lifesaver for our remote team. The seamless collaboration features have made it easy for us to work together, no matter where we are in the world. Plus, the customer support is top-notch!",
+                  text: "HRonDemand is a lifesaver for our remote team. The seamless collaboration features have made it easy for us to work together, no matter where we are in the world. Plus, the customer support is top-notch!",
                   author: {
                      photo: "images/testimonials/avatar-6.jpg",
                      name: "Michael Turner",
@@ -716,7 +716,7 @@
             [
                {
                   id: 7,
-                  text: "I can't express how impressed I am with Amiso. As a small business owner, it's essential to stay organized, and Amiso's intuitive interface and collaboration tools have made a significant difference in our efficiency and productivity.",
+                  text: "I can't express how impressed I am with HRonDemand. As a small business owner, it's essential to stay organized, and HRonDemand's intuitive interface and collaboration tools have made a significant difference in our efficiency and productivity.",
                   author: {
                      photo: "images/testimonials/avatar-7.jpg",
                      name: "David Lee",
@@ -725,7 +725,7 @@
                },
                {
                   id: 8,
-                  text: "Switching to Amiso was one of the best decisions we've made. The collaboration features, like real-time messaging and file sharing, have enhanced our team's communication, making us more agile and productive.",
+                  text: "Switching to HRonDemand was one of the best decisions we've made. The collaboration features, like real-time messaging and file sharing, have enhanced our team's communication, making us more agile and productive.",
                   author: {
                      photo: "images/testimonials/avatar-8.jpg",
                      name: "Mark Davis",
@@ -734,7 +734,7 @@
                },
                {
                   id: 9,
-                  text: "I've tried many project management tools, but Amiso stands out. It adapts to my needs, whether I'm working solo or collaborating with my team. It's a valuable asset in my daily workflow.",
+                  text: "I've tried many project management tools, but HRonDemand stands out. It adapts to my needs, whether I'm working solo or collaborating with my team. It's a valuable asset in my daily workflow.",
                   author: {
                      photo: "images/testimonials/avatar-9.jpg",
                      name: "Maria Sanchez",
@@ -789,15 +789,15 @@
          const faqs = [
             {
                id: "01",
-               question: "How do I sign up for Amiso SaaS?",
+               question: "How do I sign up for HRonDemand SaaS?",
                answer:
-                  "Signing up for Amiso SaaS is easy! Simply visit our website and click the \"Sign Up\" button. You'll be prompted to enter your name, email address, and create a password. Once you've completed the registration process, you'll be able to log in and start using our software right away.",
+                  "Signing up for HRonDemand SaaS is easy! Simply visit our website and click the \"Sign Up\" button. You'll be prompted to enter your name, email address, and create a password. Once you've completed the registration process, you'll be able to log in and start using our software right away.",
             },
             {
                id: "02",
-               question: "Is my data secure with Amiso SaaS?",
+               question: "Is my data secure with HRonDemand SaaS?",
                answer:
-                  "Absolutely. At Amiso SaaS, we take data security and privacy very seriously. We use industry-standard encryption and security protocols to protect your data, and we never share or sell your information to third parties. Plus, we offer advanced security and compliance features for enterprise customers who need even greater protection.",
+                  "Absolutely. At HRonDemand SaaS, we take data security and privacy very seriously. We use industry-standard encryption and security protocols to protect your data, and we never share or sell your information to third parties. Plus, we offer advanced security and compliance features for enterprise customers who need even greater protection.",
             },
             {
                id: "03",
